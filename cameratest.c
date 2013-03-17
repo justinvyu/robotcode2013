@@ -16,14 +16,14 @@ int main()
 	else // if no blobs around
 	{
 		printf("There are no blobs in the current field");
-    int a = camera_update();
-    if(a=0)
-    {
-      int a = camera_update(); // refresh again
-    }
-    else if(a==1)
-    {
-      int n = get_object_count(0); // refresh value of n
-    }
-	}	
+   		int a = camera_update();
+    		if(a=0)
+   		{
+      		int a = camera_update(); // refresh again
+    		}
+    		else if(a==1)
+    		{
+     		int n = get_object_count(0); // refresh value of n
+    		}	
+	}
 }

@@ -1,5 +1,17 @@
 #include <stdio.h>
 
+/******************************
+
+TO DO LIST
+
+1. find the number of blobs on the screen 
+2. if there are no blobs, refresh camera until there are
+3. find the biggest blob on screen
+4. differentiate colors of the biggest blob
+5. when differentiated, make the motors finish the movement
+
+******************************/
+
 int main()
 {
   int k = get_channel_count();
